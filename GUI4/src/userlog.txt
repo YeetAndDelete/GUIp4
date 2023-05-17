@@ -1,0 +1,14 @@
+Day1
+store fron idea or maybe a game of horse race btetting where tyou hover over a blob and your horse goes faster
+day2
+got a basic panel setup
+day3
+my screen wont work until the end of the day because i had set visible at the bottom
+day4
+layout is becoming an issue and i dont know how to fix it i tried a grid layout but i have to restart
+day5
+still cant get layout to work
+day6
+panic i need something i can do in the next 24 hours
+day7 
+regret

@@ -37,7 +37,7 @@ public class App {
         buttonPanel.add(paperButton);
         buttonPanel.add(scissorsButton);
 
-        resultLabel = new JLabel("Choose your move to start the game!", JLabel.CENTER);
+        resultLabel = new JLabel("choose your move to start the game", JLabel.CENTER);
         resultLabel.setFont(new Font("Comic Sans MS", Font.BOLD, 48));
 
         mainPanel.add(buttonPanel, BorderLayout.CENTER);
@@ -59,14 +59,14 @@ public class App {
             String result = "";
 
             if (userChoice == computerChoice) {
-                result = "It's a tie!";
+                result = "It's a tie";
             } else if ((userChoice == ROCK && computerChoice == SCISSORS) ||
                     (userChoice == PAPER && computerChoice == ROCK) ||
                     (userChoice == SCISSORS && computerChoice == PAPER)) {
-                result = "You win!";
+                result = "You win";
                 userScore++;
             } else {
-                result = "Computer wins!";
+                result = "Computer wins";
                 computerScore++;
             }
             resultLabel.setFont(new Font("Comic Sans MS", Font.BOLD, 25));
